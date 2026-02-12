@@ -1,0 +1,180 @@
+body {
+    background: linear-gradient(135deg, 
+    #0f001f,
+    #2b004f,
+    #ff2ec4,
+    #00eaff);
+    color: #ffffff;
+    margin: 0;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: ;
+    padding: ;
+    margin: __________;
+    max-width: __________;
+}
+
+body {
+
+color: white;
+
+}
+
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+
+h2 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    line-height: 7.2;
+}
+
+p {
+    font-family: "Trebuchent MS", "Segoe UI", Arial, sans-serif;
+    line-height: 1.6 ;
+    text-align: center;
+}
+/*To Mr. Taylor, 
+
+I finally realized why the image wasn't centering properly after doing some research I noticed that I was trying to move the image. In the wrong area. 
+
+*/
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10;
+    margin: __________;
+}
+
+section {
+    margin: 60px 0;
+  }
+
+img {
+    width: 500px;
+    align-content: center;
+    line-height: 19;
+    margin: 20px 0;
+    border-radius: __________;
+    border: 1px;
+}
+
+ul {
+    list-style-type: __________;
+    padding-left: __________;
+}
+
+li {
+    margin-bottom: __________;
+}
+
+a {
+    color: __________;
+    text-decoration: __________;
+}
+
+a:hover {
+    text-decoration: __________;
+}
+
+iframe {
+display: block;
+margin: 0 auto;
+
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video-box iframe {
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  .video-box {
+    transition: transform 0.3s ease;
+  }
+  
+  .video-box:hover {
+    transform: translateY(-6px);
+  }
+
+  .custom-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #ff2da3; /* synthwave pink */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  .custom-btn:hover {
+    background-color: #ff5fc8;
+  }
+
+
+
+
+ 
+.custom-navbar {
+  background: linear-gradient(90deg, #1a002b, #ff00c8);
+  padding: 15px;
+}
+
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.nav-link {
+  color: #fff !important;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #00f7ff !important;
+  text-shadow: 0 0 8px #00f7ff;
+}
+
+
+.search-input {
+  border-radius: 20px;
+  border: none;
+}
+
+
+.search-btn {
+  background-color: #ff00c8;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  border: none;
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #00f7ff;
+  color: black;
+}
