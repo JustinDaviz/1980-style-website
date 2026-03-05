@@ -235,3 +235,54 @@ margin: 0 auto;
   object-fit: cover;   
   border-radius: 10px;  
 }
+
+
+
+
+.comment-section {
+  background: transparent;
+  color: white;
+}
+
+.comment-box {
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ff00cc;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ff00cc;
+}
+
+.form-control {
+  background: #1a1a2e;
+  border: 1px solid #ff00cc;
+  color: white;
+}
+
+.form-control:focus {
+  background: #1a1a2e;
+  color: white;
+  border-color: #00f7ff;
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+.neon-btn {
+  background: #ff00cc;
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff00cc;
+  transition: 0.3s;
+}
+
+.neon-btn:hover {
+  background: #00f7ff;
+  box-shadow: 0 0 20px #00f7ff;
+}
+
+/* Displayed Comments */
+.comment {
+  background: rgba(0, 0, 0, 0.5);
+  border-left: 4px solid #00f7ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
