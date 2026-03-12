@@ -1,0 +1,309 @@
+body {
+    background: linear-gradient(135deg, 
+    #0f001f,
+    #2b004f,
+    #ff2ec4,
+    #00eaff);
+    color: #ffffff;
+    margin: 0;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+body {
+
+color: white;
+
+}
+
+h1 
+    {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: light;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+
+}
+
+h2 i {
+    margin-right: 10px;
+    color: #ff00ff;
+}
+
+h2 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    line-height: 7.2;
+}
+
+p {
+    font-family: "Trebuchent MS", "Segoe UI", Arial, sans-serif;
+    line-height: 1.6 ;
+    text-align: center;
+}
+/*To Mr. Taylor, 
+
+I finally realized why the image wasn't centering properly after doing some research I noticed that I was trying to move the image. In the wrong area. 
+
+*/
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    margin: __________;
+}
+
+section {
+    margin: 60px 0;
+  }
+
+img {
+    width: 500px;
+    align-content: center;
+    line-height: 19;
+    margin: 20px 0;
+    border-radius: __________;
+    border: 1px;
+}
+
+ul {
+    list-style-type: __________;
+    padding-left: __________;
+}
+
+li {
+    margin-bottom: __________;
+}
+
+a {
+    color: __________;
+    text-decoration: __________;
+}
+
+a:hover {
+    text-decoration: __________;
+}
+
+iframe {
+display: block;
+margin: 0 auto;
+
+}
+
+.image-box img {
+    display: block;
+    max-width: 100%;
+      display: block;
+    margin-bottom: -2px;
+    height: auto;
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video-box iframe {
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  .video-box {
+    transition: transform 0.3s ease;
+  }
+  
+  .video-box:hover {
+    transform: translateY(-6px);
+  }
+
+  .custom-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #ff2da3; /* synthwave pink */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  .custom-btn:hover {
+    background-color: #ff5fc8;
+  }
+
+
+
+
+ 
+.custom-navbar {
+  background: linear-gradient(90deg, #1a002b, #ff00c8);
+  padding: 15px;
+}
+
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.nav-link {
+  color: #fff !important;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #00f7ff !important;
+  text-shadow: 0 0 8px #00f7ff;
+}
+
+
+.search-input {
+  border-radius: 20px;
+  border: none;
+}
+
+
+.search-btn {
+  background-color: #ff00c8;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  border: none;
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #00f7ff;
+  color: black;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+.gallery-title {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 10px hotpink;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery-item img {
+  transition: transform 0.5s ease;
+  border: 3px solid #ff00cc;
+  border-radius: 10px;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+
+.gallery-item img {
+  width: 100%;
+  height: 300px;        
+  object-fit: cover;   
+  border-radius: 10px;  
+}
+
+
+
+
+.comment-section {
+  background: transparent;
+  color: white;
+}
+
+.comment-box {
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ff00cc;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ff00cc;
+}
+
+.form-control {
+  background: #1a1a2e;
+  border: 1px solid #ff00cc;
+  color: white;
+}
+
+.form-control:focus {
+  background: #1a1a2e;
+  color: white;
+  border-color: #00f7ff;
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+.neon-btn {
+  background: #ff00cc;
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff00cc;
+  transition: 0.3s;
+}
+
+.neon-btn:hover {
+  background: #00f7ff;
+  box-shadow: 0 0 20px #00f7ff;
+}
+
+/* Displayed Comments */
+.comment {
+  background: rgba(0, 0, 0, 0.5);
+  border-left: 4px solid #00f7ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
